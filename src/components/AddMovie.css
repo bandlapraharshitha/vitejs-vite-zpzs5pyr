@@ -1,0 +1,48 @@
+.add-movie-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-movie-container h2 {
+  text-align: center;
+}
+
+.add-movie-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-movie-container input,
+.add-movie-container select,
+.add-movie-container textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-movie-container .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-movie-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-movie-container button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-movie-container button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
